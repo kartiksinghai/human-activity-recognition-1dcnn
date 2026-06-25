@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Dataset and generated data
+data/
+*.zip
+*.npy
+*.npz
+
+# Saved model files
+checkpoints/
+*.pt
+*.pth
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
