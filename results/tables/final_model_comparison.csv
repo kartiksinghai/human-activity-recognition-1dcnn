@@ -1,0 +1,3 @@
+Model,Input,Test Accuracy,Macro F1,Key Observation
+Random Forest (handcrafted features),561 engineered time/frequency-domain features,0.9257,0.9238,Best overall accuracy; benefits from handcrafted domain features
+1D CNN (raw sensor signals),Raw 9-channel sequences (128 time steps),0.9172,0.9182,Competitive using only raw sensor signals; weaker on Sitting vs Standing
